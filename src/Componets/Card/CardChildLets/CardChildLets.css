@@ -1,0 +1,58 @@
+.CardChildLets{
+    width: 100%;
+    padding: 20px 50px;
+    >h1{
+        color: #303B59;
+        font-size: 24px;
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 12px;
+        padding: 15px 10px;
+        margin: 10px 0;
+        >h1{
+            font-size: 18px;
+        }
+        span{
+            font-size: 18px;
+            color: #303B59;
+            font-weight: 700;
+            >span{
+                color: #303b59a1;
+            }
+        }
+    }
+    .div1{
+        background: linear-gradient(0deg, #ff555526, #ff555526),linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+    }
+    .div2{
+        background: linear-gradient(0deg, #ffb01e1f, #ffb01e1f),linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+    }
+    .div3{
+        background: linear-gradient(0deg, #00bb8f21, #00bb8f21),linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+    }
+    .div4{
+        background: linear-gradient(0deg, #1125d625, #1125d625),linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+    }
+    button{
+        width: 100%;
+        color: white;
+        background-color: #303B59;
+        border-radius: 128px;
+        height: 56px;
+        font-size: 18px;
+        cursor: pointer;
+        border: none;
+        transition: .4s;
+        margin-top: 20px;
+    }
+    button:hover{
+        background:  #7755FF;
+    }
+}
+@media screen and (max-width: 860px){
+    .CardChildLets{
+        width: auto;
+    }
+}

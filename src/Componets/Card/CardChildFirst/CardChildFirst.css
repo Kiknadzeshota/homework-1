@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+.CardChildFirst {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 32px;
+    transform: translate(-20px, -20px);
+    >h1 {
+        color: #D9D9D9;
+        font-size: 24px;
+        line-height: 31.27px;
+    }
+    >div{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px 0;
+        background: linear-gradient(180deg, #4D21C9 0%, rgba(63, 33, 201, 0.641249) 35.88%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+        >h2{
+            color: white;
+            font-size: 72px;
+        }
+        >h3{
+            color: #CAC9FF;
+            font-size: 18px;
+        }
+    }
+    >h2{
+        color: white;
+        font-size: 32px;
+    }
+    p{
+        color: #CAC9FF;
+        font-size: 18px;
+        text-align: center;
+        width: 260px;
+    }
+}
+@media screen and (max-width: 860px){
+    .CardChildFirst{
+        transform: translate(0, 0);
+    }
+}
